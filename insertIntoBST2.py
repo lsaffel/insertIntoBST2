@@ -6,6 +6,7 @@
 #         self.right = right
 class Solution:
     def insertIntoBST(self, root: Optional[TreeNode], val: int) -> Optional[TreeNode]:
+        # the code and class above this line was provided in the problem
         if root is None:
             new_node = TreeNode(val)
             root = new_node
